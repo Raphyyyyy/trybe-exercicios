@@ -6,6 +6,8 @@
 }
 
 
+
+
 header {
     background-color: black; 
     top: auto;
@@ -83,7 +85,6 @@ h1 {
     border: 0;
     display: flex;
     color: white;
-    display: flex;
     }   
         .prop-pincipal-esq{
             margin: 0;
@@ -92,13 +93,13 @@ h1 {
             line-height: 450%;
             width: 40%;
             }  
-            .prop-pincipal h1{
+            h1{
                 font-family: Arial, Helvetica, sans-serif;
                 font-size: 60px;
                 font-display: bold;    
             }
 
-            .prop-pincipal h2{
+            h2{
                 font-family: Arial;
                 font-size: 20px;
                 padding: 0px;
@@ -132,7 +133,7 @@ h1 {
         margin-right: 15px;
         text-align: center;
         font-weight: bold;
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .bt2{
@@ -145,7 +146,7 @@ h1 {
         margin-top: 45px;
         text-align: center;
         font-weight: bold;
-        font-size: 24px;
+        font-size: 20px;
     }
     
     .div-principal a{
@@ -154,7 +155,68 @@ h1 {
     
     /* fim da div principal */
         
+    /* Tabela experimente a diferença beneficios premium*/
+
+    .section-seja-premium{
+        color: white;
+
+        display: grid;
+        align-items: center;
+        justify-items: center;
+    }
 
 
+    .section-seja-premium h4{   
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        font-display: bold;
+        padding-bottom: 30px;
+
+    }
+
+    .section-seja-premium h3{   
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        font-display: bold;
+        padding-bottom: 40px;
+    
+    }
+
+    .div-seja-premium{
+        width: 50%;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+        box-sizing: border-box;  
+    }
+
+        .div-seja-premium table{
+            font-size: 20px;
+            border-collapse: collapse;
+            width: 70%;
+
+            
+
+        }
+
+            .div-seja-premium td, tr{
+                padding: 20px;
+                border-bottom: 1px solid white;
+            }
+
+            .centralizado {
+                text-align: center;
+                vertical-align: middle;
+                padding: 30px;
+            }
+
+            .centralizado2{
+                text-align: center;
+                vertical-align: middle;
+                padding: 30px;
+                background-color: rgb(32, 32, 32);
+                font-display: bold;
+            }
 
     
