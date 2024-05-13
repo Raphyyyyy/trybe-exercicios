@@ -17,6 +17,7 @@ header {
     border: 0;
 }
 
+
 header div {
     margin: auto;
     justify-content: space-between;
@@ -52,12 +53,19 @@ ul {
     font-family: Helvetica;
 }   
 
+
 .menu li {
     margin-left: 35px;
     padding: 0;
     border: 0;
     font-size: 25px;
 }
+
+.menu li:hover {
+    color: green;
+}
+
+
 
 h1 {
     margin: 0;
@@ -320,8 +328,12 @@ h1 {
 
     }
 
+    .seletor-planos .divfamilia{
+        height: 620px;
+
+    }
+    
     .seletor-planos p{
-        display: flex;
         align-items: center;
         justify-items: left;
         height: auto;
@@ -412,4 +424,133 @@ h1 {
     }
 
 
+    /*fim Seletor dos planos Premium*/
 
+    /*começa Seção de perguntas frequentes*/
+
+    .area_de_duvidas{
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        padding: 100px 0 0 0;
+        color: white;
+        background-color: none;
+
+
+    }
+
+    .area_de_duvidas h3{   
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        font-display: bold;
+        padding-bottom: 40px;
+    }
+
+    .area_de_duvidas p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        padding-bottom: 10px;   
+    }
+
+
+
+    details summary {
+        list-style: none;
+        position: relative;
+        /*tira a seta e deixa a posição dela libre*/
+    }
+    
+    details summary::-webkit-details-marker {
+        display: none;
+        /*tira a seta do webkit*/
+    }
+    
+    details summary::before {
+        content: '▽';
+        /*troca a seta padrão por um triangulo*/
+        position: absolute;
+        right: 0px;
+        padding-left: 100%;
+    }
+    
+    details[open] summary::before {
+        content: '△';
+        padding-left: 100%;
+    }
+
+
+.area_de_duvidas p{
+    padding: 10px;
+}
+    
+
+    .area_de_duvidas li{
+        padding: 16px;
+        margin-top: 2px;
+        list-style: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        font-display: bolder;
+        padding-bottom: 10px; 
+        font-style: none;
+        padding: 20px 70px 20px 70px;
+        width: 1400px;
+        max-width: 80%;
+        border-bottom: 1px solid #292929;
+
+
+    }
+
+    .area_de_duvidas li:hover{
+        background-color: #252525;
+        transition: 0.5s;
+    }
+
+    /*fim da area de duvidas*/
+
+    /*inicio do rodapé*/
+    footer{
+        padding: 45px 10px;
+        background-color: black;
+        display: flex;
+    }
+
+    footer img{
+        width: 120px;
+        margin: 0 20px 0 20px;
+        padding-left: 250px;
+    }
+
+    footer ul{
+        display: grid;
+        list-style: none;
+        padding: 0px 40px;
+        line-height: 45px;
+    }   
+
+    footer a{
+        text-decoration: none;
+        color: white;
+    }
+
+    footer a:hover{
+        color: green;
+        transition: 0.3s;
+    }
+
+    footer .titulo-footer{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-weight: bolder;       
+        color: gray;
+
+    }
+
+    footer svg{
+        background-color: #222326;
+        border-radius: 35px;
+        padding: 10px 15px;
+        width: 25px;
+        margin: 5px;
+
+    }
