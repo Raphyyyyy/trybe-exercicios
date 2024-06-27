@@ -1,0 +1,162 @@
+/* fontes */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400..800&display=swap');
+/* fim fontes */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: 'Baloo Thambi 2', system-ui, sans-serif;
+}
+
+/* fontes */
+.baloo-thambi-2 {
+    font-family: 'Baloo Thambi 2', system-ui, sans-serif;
+    font-weight: 400;
+    /* ou 500, 600, 700, 800 conforme necessário */
+    font-style: normal;
+}
+
+/* fim de fontes */
+
+
+/* começa logo lanche */
+
+.logo-lanche {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin: 24px auto auto 45px;
+}
+
+.logo-lanche img {
+    flex-shrink: 0;
+}
+
+.logo-lanche h1 {
+    color: var(--other-black, #000);
+    font-family: "Baloo Thambi 2";
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    /* 23px */
+}
+
+/* fim logo lanche */
+
+/* inicio main */
+
+main {
+    display: flex;
+    width: 511px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    margin: 5%;
+
+}
+
+.envie-seu-pedido {
+    color: var(--orange-8, #E8590C);
+    /* title/h1 */
+    font-family: Inter;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    /* 44.2px */
+}
+
+
+/* identificacao */
+.identificacao {
+    display: flex;
+    width: 511px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.head-identificacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.head-identificacao h4 {
+    color: var(--other-black, #000);
+
+    /* title/h4 */
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 145%;
+    /* 26.1px */
+}
+
+.head-identificacao img {
+    flex-shrink: 0;
+}
+
+.identificacao-texto {
+    display: flex;
+    align-items: flex-start;
+    flex: 1 0 0;
+}
+
+
+.body-identificacao {
+    display: flex;
+    width: 511px;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.identificacao-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+    flex: 1 0 0;
+}
+
+.identificacao-texto label {
+    align-self: stretch;
+    color: var(--gray-9, #212529);
+
+    /* components/input/label/md */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+}
+
+input[type="text"],
+input[type="email"] {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid var(--gray-4, #CED4DA);
+    color: var(--other-black, #000);
+
+    /* components/input/text/md */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    /* 250% */
+}
