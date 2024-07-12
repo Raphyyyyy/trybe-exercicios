@@ -573,7 +573,7 @@ input[type=checkbox]:checked::before {
 
 }
 
-.vc-aceita {
+.vcaceita {
     margin: 10px 0;
 }
 
@@ -591,6 +591,7 @@ input[type=checkbox]:checked::before {
 /* nota fiscal */
 
 .nota-pai {
+    display: none;
     margin: 5%;
     padding: 51px 46px;
     width: 405px;
@@ -598,6 +599,7 @@ input[type=checkbox]:checked::before {
     flex-shrink: 0;
     border-radius: 20px;
     background: var(--orange-0, #FFF4E6);
+    overflow: auto;
     z-index: +1;
 }
 
@@ -637,6 +639,7 @@ input[type=checkbox]:checked::before {
     font-weight: 400;
     line-height: 130%;
     /* 18.2px */
+    list-style: none;
 }
 
 .total-pedido {
@@ -645,8 +648,8 @@ input[type=checkbox]:checked::before {
     text-align: right;
     font-family: Coda;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
+    font-style:normal;
+    font-weight: 600;
     line-height: 130%;
     /* 18.2px */
 }
@@ -722,4 +725,37 @@ input[type=checkbox]:checked::before {
     font-weight: 400;
     line-height: 130%;
     /* 18.2px */
+}
+
+/* Media Query para telas menores */
+@media (max-width: 768px) {
+    .logo-lanche h1 {
+        font-size: 20px;
+    }
+
+    .envie-seu-pedido {
+        font-size: 24px;
+    }
+
+    .body-identificacao,
+    .identificacao,
+    .tamanho-pai,
+    .adicionais-pai,
+    .comentario,
+    .batata-pai,
+    .enviar {
+        width: 100%;
+    }
+
+    .molhos-label,
+    .batata-label{
+        padding-right: 0;
+    }
+
+    .canto-laranja {
+        display: none;
+    }
+
+
+
 }

@@ -33,11 +33,11 @@
                 <div class="body-identificacao">
                     <div class="identificacao-texto">
                         <label for="nome">Nome</label>
-                        <input type="text" placeholder="" id="nome">
+                        <input type="text" placeholder="" id="nome" required>
                     </div>
                     <div class="identificacao-texto">
                         <label for="email">E-mail</label>
-                        <input type="email" placeholder="" id="email">
+                        <input type="email" placeholder="" id="email" name="email" required>
                     </div>
                 </div>
             </div>
@@ -56,9 +56,9 @@
                         </div>
                     </div>
                     <div class="qtd-tamanho">
-                        <button type="button" id="Menos1kg">-</button>
-                        <input type="text" value="0" id="qtd-1kg">
-                        <button type="button" id="Mais1kg">+</button>
+                        <button type="button" id="Menos1kg" name="Lachão">-</button>
+                        <input type="text" value="0" id="qtd-1kg" name="Lachão">
+                        <button type="button" id="Mais1kg"  name="Lachão">+</button>
                     </div>
                 </div>
 
@@ -71,9 +71,9 @@
                         </div>
                     </div>
                     <div class="qtd-tamanho">
-                        <button type="button" id="Menos05kg">-</button>
-                        <input type="text" value="0" id="qtd-0.5kg">
-                        <button type="button" id="Mais05kg">+</button>
+                        <button type="button" id="Menos05kg"  name="Lache">-</button>
+                        <input type="text" value="0" id="qtd-0.5kg"  name="Lache">
+                        <button type="button" id="Mais05kg" name="Lache">+</button>
                     </div>
                 </div>
 
@@ -86,9 +86,9 @@
                         </div>
                     </div>
                     <div class="qtd-tamanho">
-                        <button type="button" id="Menos025kg">-</button>
-                        <input type="text" value="0" id="qtd-0.25kg">
-                        <button type="button" id="Mais025kg">+</button>
+                        <button type="button" id="Menos025kg" name="Lachinho">-</button>
+                        <input type="text" value="0" id="qtd-0.25kg" name="Lachinho">
+                        <button type="button" id="Mais025kg" name="Lachinho">+</button>
                     </div>
                 </div>
 
@@ -106,9 +106,9 @@
                         <p class="sm">R$ 1,50</p>
                     </div>
                     <div class="adicionais-qtd">
-                        <button type="button" id="-ovo">-</button>
-                        <input type="text" value="0" id="ovo">
-                        <button type="button" id="+ovo">+</button>
+                        <button type="button" id="-ovo" name="ovo">-</button>
+                        <input type="text" value="0" id="ovo" name="ovo">
+                        <button type="button" id="+ovo" name="ovo">+</button>
                     </div>
                 </div>
 
@@ -118,9 +118,9 @@
                         <p class="sm">R$ 1,00</p>
                     </div>
                     <div class="adicionais-qtd">
-                        <button type="button" id="MenosAbacaxi">-</button>
-                        <input type="text" value="0" id="abacaxi">
-                        <button type="button" id="MaisAbacaxi">+</button>
+                        <button type="button" id="MenosAbacaxi" name="abacaxi">-</button>
+                        <input type="text" value="0" id="abacaxi" name="abacaxi">
+                        <button type="button" id="MaisAbacaxi"  name="abacaxi">+</button>
                     </div>
                 </div>
 
@@ -199,7 +199,7 @@
                     <div class="batata-check-mae">
 
                         <input type="radio" id="batata-nao" name="batata" checked>
-                        <label for="batata-nao">Não, valeu.</label>
+                        <label for="batata-nao" name="batata">Não, valeu.</label>
                     </div>
                 </div>
 
@@ -218,17 +218,17 @@
                 </div>
                 <div class="cx-comentario">
                     <textarea cols="30" rows="10" id="cxcomentario"
-                        placeholder="digite seu comentário aqui"></textarea>
+                        placeholder="digite seu comentário aqui" name="comentário"></textarea>
                 </div>
             </div>
 
             <div class="vc-aceita">
-                <input type="checkbox" id="vc-aceita" name="vc-aceita">
+                <input type="checkbox" id="vcaceita" name="vcaceita">
                 <label for="vc-aceita">Você aceita colocar sua vida em risco por livre e espontânea vontade?</label>
             </div>
 
             <div class="enviar">
-                <button id="enviar" type="submit">Enviar pedido</button>
+                <a href="#notapai"><button id="enviar" type="submit">Enviar pedido</button></a>
                 <button id="recuperar">Recuperar pedido anterior</button>
             </div>
         </form>
@@ -236,7 +236,7 @@
 
     </main>
 
-    <div class="nota-pai">
+    <aside class="nota-pai" id="notapai">
         <div class="nota-mae">
             <div class="conteudo-nota-pai">
                 <div class="titulo-nota-pai">
@@ -252,21 +252,15 @@
                     </div>
                 </div>
                 <div class="num-pedido">
-                    PEDIDO Nº 34
+                    <p id="pedido"></p>
                 </div>
 
                 <div class="conteudo-nota-mae">
-                    <div class="conteudo-nota">
-                        Id: 34
-                        Nome: Gustavo <br>
-                        Email: gus@trybe.com<br>
-                        Tamanho: Lanchão | 1kg = R$ 20,00<br>
-                        Adicionais: [01] Ovo frito<br>
-                        Molhos: Barbecue<br>
-                        Termos: Aceitos<br>
-                    </div>
+                    <ol class="conteudo-nota" id="conteudo-nota">
+
+                    </ol>
                     <div class="total-pedido">
-                        TOTAL: R$ 23,50
+                        <p id="total"></p>
                     </div>
                     <div class="valeu">
                         Valeu por nunca mais não voltar s2
@@ -274,7 +268,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </aside>
     <div class="canto-laranja"></div>
 </body>
 
