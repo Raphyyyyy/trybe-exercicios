@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+
+
+    <title>GUSTOSÃO LANCHES</title>
+</head>
+
+<body>
+
+    <main>
+
+        <header>
+            <div class="logo-lanche">
+                <img src="public/images/logo-lanche.png" alt="logo gustosao lanches" >
+                <h1>gustosão
+                    lanches</h1>
+            </div>
+        </header>
+
+        <h1 class="envie-seu-pedido">Envie seu pedido</h1>
+        <form action="get">
+            <div class="identificacao">
+                <div class="head-identificacao">
+                    <img src="public/images/group-3.svg" alt="identificacao">
+                    <h4>Identificação</h4>
+                </div>
+                <div class="body-identificacao">
+                    <div class="identificacao-texto">
+                        <label for="nome">Nome</label>
+                        <input type="text" placeholder="" id="nome" required>
+                    </div>
+                    <div class="identificacao-texto">
+                        <label for="email">E-mail</label>
+                        <input type="email" placeholder="" id="email" name="email" required>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tamanho-pai">
+                <div class="tamanho">
+                    <img src="public/images/hamb-icon.svg" alt="tamanho">
+                    <h4>Tamanho</h4>
+                </div>
+                <div class="tamanho-hamb">
+                    <div class="tamanho-lanche">
+                        <img src="public/images/hamb-img.png" alt="selecione o tamanho">
+                        <div class="tamanho">
+                            <p class="md">Lanchão | 1kg</p>
+                            <p class="sm">R$ 20,00</p>
+                        </div>
+                    </div>
+                    <div class="qtd-tamanho">
+                        <button type="button" id="Menos1kg" name="Lachão">-</button>
+                        <input type="text" value="0" id="qtd-1kg" name="Lachão">
+                        <button type="button" id="Mais1kg"  name="Lachão">+</button>
+                    </div>
+                </div>
+
+                <div class="tamanho-hamb">
+                    <div class="tamanho-lanche">
+                        <img src="public/images/hamb-img.png" alt="selecione o tamanho">
+                        <div class="tamanho">
+                            <p class="md">Lanche | 500g</p>
+                            <p class="sm">R$ 15,00</p>
+                        </div>
+                    </div>
+                    <div class="qtd-tamanho">
+                        <button type="button" id="Menos05kg"  name="Lache">-</button>
+                        <input type="text" value="0" id="qtd-0.5kg"  name="Lache">
+                        <button type="button" id="Mais05kg" name="Lache">+</button>
+                    </div>
+                </div>
+
+                <div class="tamanho-hamb">
+                    <div class="tamanho-lanche">
+                        <img src="public/images/hamb-img.png" alt="selecione o tamanho">
+                        <div class="tamanho">
+                            <p class="md">Lanchinho | 250g</p>
+                            <p class="sm">R$ 10,00</p>
+                        </div>
+                    </div>
+                    <div class="qtd-tamanho">
+                        <button type="button" id="Menos025kg" name="Lachinho">-</button>
+                        <input type="text" value="0" id="qtd-0.25kg" name="Lachinho">
+                        <button type="button" id="Mais025kg" name="Lachinho">+</button>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="adicionais-pai">
+                <div class="adicionais-titulo">
+                    <img src="public/images/ovo-icon.svg">
+                    <h4>Adicionais</h4>
+                </div>
+                <div class="adicionais">
+                    <div class="adicionais-texto">
+                        <p class="md">Ovo frito</p>
+                        <p class="sm">R$ 1,50</p>
+                    </div>
+                    <div class="adicionais-qtd">
+                        <button type="button" id="-ovo" name="ovo">-</button>
+                        <input type="text" value="0" id="ovo" name="ovo">
+                        <button type="button" id="+ovo" name="ovo">+</button>
+                    </div>
+                </div>
+
+                <div class="adicionais">
+                    <div class="adicionais-texto">
+                        <p class="md">Abacaxi</p>
+                        <p class="sm">R$ 1,00</p>
+                    </div>
+                    <div class="adicionais-qtd">
+                        <button type="button" id="MenosAbacaxi" name="abacaxi">-</button>
+                        <input type="text" value="0" id="abacaxi" name="abacaxi">
+                        <button type="button" id="MaisAbacaxi"  name="abacaxi">+</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="batata-pai">
+                <div class="molhos-label">
+                    <div class="molhos-label-in">
+                        <div class="molhos-texto-pai">
+                            <div class="molhos-texto">
+                                <img src="public/images/molho-icon.svg" alt="" srcset="">
+                                <h4>Molhos</h4>
+                                <p class="sm">+ R$ 2,00 cada</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="molhos-check-pai">
+                    <div class="molhos-check-mae">
+
+                        <input type="checkbox" id="molho-madeira" name="molho">
+                        <label for="molho-madeira">Molho Madeira</label>
+                    </div>
+                </div>
+
+                <div class="molhos-check-pai">
+                    <div class="molhos-check-mae">
+
+                        <input type="checkbox" id="molho-barbecue" name="molho">
+                        <label for="molho-barbecue">Molho Barbecue</label>
+                    </div>
+                </div>
+
+                <div class="molhos-check-pai">
+                    <div class="molhos-check-mae">
+
+                        <input type="checkbox" id="molho-da-casa" name="molho">
+                        <label for="molho-da-casa">Molho da Casa</label>
+                    </div>
+                </div>
+
+                <div class="molhos-check-pai">
+                    <div class="molhos-check-mae">
+
+                        <input type="checkbox" id="molho-alecrim-dourado" name="molho">
+                        <label for="molho-alecrim-dourado">Alecrim Dourado</label>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="batata-pai">
+                <div class="batata-label">
+                    <div class="batata-label-in">
+                        <div class="batata-texto-pai">
+                            <div class="batata-texto">
+                                <img src="public/images/batata-icon.svg" alt="" srcset="">
+                                <h4>Batata Frita</h4>
+                                <p class="sm">+ R$ 2,00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="batata-check-pai">
+                    <div class="batata-check-mae">
+
+                        <input type="radio" id="batata-sim" name="batata">
+                        <label for="batata-sim">Sim, por favor!</label>
+
+                    </div>
+                </div>
+
+                <div class="batata-check-pai">
+                    <div class="batata-check-mae">
+
+                        <input type="radio" id="batata-nao" name="batata" checked>
+                        <label for="batata-nao" name="batata">Não, valeu.</label>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <div class="comentario">
+                <div class="label-comentario-pai">
+                    <div class="label-comentario-mae">
+                        <div class="label-comentario">
+                            <img src="public/images/msg-icon.svg">
+                            <h4>Algum comentário?</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="cx-comentario">
+                    <textarea cols="30" rows="10" id="cxcomentario"
+                        placeholder="digite seu comentário aqui" name="comentário"></textarea>
+                </div>
+            </div>
+
+            <div class="vc-aceita">
+                <input type="checkbox" id="vcaceita" name="vcaceita">
+                <label for="vc-aceita">Você aceita colocar sua vida em risco por livre e espontânea vontade?</label>
+            </div>
+
+            <div class="enviar">
+                <a href="#notapai"><button id="enviar" type="submit">Enviar pedido</button></a>
+                <button id="recuperar">Recuperar pedido anterior</button>
+            </div>
+        </form>
+
+
+    </main>
+
+    <aside class="nota-pai" id="notapai">
+        <div class="nota-mae">
+            <div class="conteudo-nota-pai">
+                <div class="titulo-nota-pai">
+                    <div class="titulo-nota">
+                        <div class="titulo-nota2">
+                            <img src="public/images/linha.svg"> 
+                            &nbsp;
+                            <h2> GUSTOSÃO LANCHES </h2>
+                            &nbsp;
+                            <img src="public/images/linha.svg">
+                        </div>
+                        <p>Quem não sobrevive não volta mais</p>
+                    </div>
+                </div>
+                <div class="num-pedido">
+                    <p id="pedido"></p>
+                </div>
+
+                <div class="conteudo-nota-mae">
+                    <ol class="conteudo-nota" id="conteudo-nota">
+
+                    </ol>
+                    <div class="total-pedido">
+                        <p id="total"></p>
+                    </div>
+                    <div class="valeu">
+                        Valeu por nunca mais não voltar s2
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <div class="canto-laranja"></div>
+</body>
+
+<script src="script.js"></script>
+
+</html>

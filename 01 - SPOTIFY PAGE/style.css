@@ -1,0 +1,659 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    border: 0; 
+}
+
+
+
+
+header {
+    background-color: black; 
+    top: auto;
+    display: flex;
+    margin: 0;
+    padding: 30px;
+    border: 0;
+}
+
+
+header div {
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    width: 95%;
+
+}   
+
+div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+ul {
+    color: white;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.menu {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    align-items: center;
+    list-style: none;
+    font-weight: bold;
+    font-family: Helvetica;
+}   
+
+
+.menu li {
+    margin-left: 35px;
+    padding: 0;
+    border: 0;
+    font-size: 25px;
+}
+
+.menu li:hover {
+    color: green;
+}
+
+
+
+h1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+/* Div principal */
+.div-principal{
+
+    background-color: #121212;
+    background-image: url("https://images2.imgbox.com/e1/07/JYv2VVwF_o.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% 10%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}   
+
+    .prop-pincipal{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: flex;
+    color: white;
+    }   
+        .prop-pincipal-esq{
+            margin: 0;
+            padding: 70px 0px 100px 120px;
+            border: 0;   
+            line-height: 450%;
+            width: 40%;
+            }  
+            h1{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 60px;
+                font-display: bold;    
+            }
+
+            h2{
+                font-family: Arial;
+                font-size: 20px;
+                padding: 0px;
+                line-height: 250%;
+                
+            }
+
+            .prop-pincipal-dir{
+                width: 60%;
+                margin: 0;
+                padding: 0;
+            }
+                .prop-pincipal-dir img{
+                    width: 110%;
+                    height: 100%;
+                    margin: 0;
+                    padding: 0;
+                    border: 0;
+                    align-items: left;
+                }
+    
+    /* Botoes pricipais */
+    .bt1{
+        border-radius: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #ffd2d7; 
+        border: none;
+        color: black;
+        padding: 20px 30px;
+        margin-top: 45px;
+        margin-right: 15px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .bt1:hover{
+        background-color: rgb(255, 244, 245); 
+        padding: 22px 32px;
+        transition: 0.5s;
+    }
+
+    .bt2{
+        border-radius: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: black; 
+        border: white 1px solid;
+        color: white;
+        padding: 20px 30px;
+        margin-top: 45px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .bt2:hover{
+        padding: 22px 32px;
+        transition: 0.5s;
+    }
+
+    .div-principal a{
+        color: white;
+    }
+
+
+    
+    /* fim da div principal */
+        
+    /* Tabela experimente a diferença beneficios premium*/
+
+    .section-seja-premium{
+        color: white;
+
+        display: grid;
+        align-items: center;
+        justify-items: center;
+    }
+   
+    
+    .section-seja-premium h4{   
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 55px;
+        font-display: bold;
+        padding-bottom: 30px;
+
+    }
+
+    .section-seja-premium h3{   
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        font-display: bold;
+        padding-bottom: 40px;
+    
+    }
+
+    .div-seja-premium{
+        width: 50%;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+        box-sizing: border-box;  
+    }
+
+        .div-seja-premium table{
+            font-size: 20px;
+            border-collapse: collapse;
+            width: 70%;
+
+            
+
+        }
+
+            .div-seja-premium td, tr{
+                padding: 20px;
+                border-bottom: 1px solid white;
+            }
+
+            .centralizado {
+                text-align: center;
+                vertical-align: middle;
+                padding: 30px;
+            }
+
+            .centralizado2{
+                text-align: center;
+                vertical-align: middle;
+                padding: 30px;
+                background-color: rgb(32, 32, 32);
+                font-display: bold;
+            }
+
+            .div-cartoes{
+                padding: 150px 0 0 0;
+                width: 60%;
+                display: grid;
+                align-items: center;
+                justify-items: center;
+                
+
+            }
+                .div-cartoes p{
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 25px;
+                    font-display: bold;
+                    display: inline-block;
+                    padding: 0 0 30px 0;
+                    line-height: 150%;
+                    text-align: center;
+                }
+                .div-cartoes img{
+                    width: 90%;
+                    padding: 0 5px 0 5px;              
+                }
+
+                .div-imagens{
+                    width: 40%;
+                    display: flex;
+                    align-content: center;
+                    justify-content: center;
+                    padding: 10px;
+                    
+                }   
+
+    /*fim do cartões*/
+
+    /*começa Recursos dos planos Premium*/
+
+
+
+    .tabela-recursos{
+        color: white;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        padding: 100px 0 0 0;
+    
+    }
+
+    .tabela-recursos th{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 55px;
+        font-display: bold;
+        padding-bottom: 30px;
+
+    }
+
+    .tabela-recursos li{
+        display: flex;
+        align-items: center;
+        height: auto;
+        font-family: Arial, Helvetica, sans-serif; 
+        font-weight: lighter;
+        font-size: 25px;
+        padding: 0px 0px 10px 70px;
+        list-style: none; 
+    }
+
+    /*fim Recursos dos planos Premium*/
+
+    
+    /*começa Seletor dos planos Premium*/
+
+    .seletor-planos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        margin: auto;
+        
+    }
+
+    .seletor-planos div{
+        
+        background-color: #242424;
+        padding: 20px 40px;
+        margin: 20px;
+        border-radius: 35px;
+        
+        height: 550px;
+        width: 450px;
+
+        color: white;
+
+        font-family: Arial, Helvetica, sans-serif; 
+        font-weight: lighter;
+        font-size: 22px;
+        
+
+    }
+
+    .seletor-planos .divfamilia{
+        height: 620px;
+
+    }
+    
+    .seletor-planos p{
+        align-items: center;
+        justify-items: left;
+        height: auto;
+        padding: 10px 0 20px 0;
+    }
+
+
+    .seletor-planos hr{
+        width: 100%;
+        border: 1px solid rgb(48, 48, 48);
+    }
+
+    .seletor-planos li{
+        padding: 5px 0 5px 0;
+    }
+
+    .seletor-planos button{
+        border-radius: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 55px;
+        font-weight: bolder;
+        border: none;
+        color: black;
+        padding: 20px 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: fill;
+        margin-right: fill;
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .bot1{
+        background-color: #ffd2d7 !important;  
+    }
+    .bot2{
+        background-color: #c4b1d4 !important;  
+    }
+    .bot3{
+        background-color: #ffc862 !important;  
+    }
+    .bot4{
+        background-color: #a5bbd1 !important; 
+    }
+
+
+
+    .paragrafo1{
+        font-size: 50px !important; 
+        color: #ffd2d7 !important;  
+        font-weight: bold !important;
+    }
+    .paragrafo2{
+        font-size: 50px !important; 
+        color: #c4b1d4 !important;  
+        font-weight: bold !important;
+    }
+    .paragrafo3{
+        font-size: 50px !important; 
+        color: #ffc862 !important;  
+        font-weight: bold !important;
+    }
+    .paragrafo4{
+        font-size: 50px !important; 
+        color: #a5bbd1 !important;  
+        font-weight: bold !important;
+    }
+    .paragrafo5{
+        font-weight: bold !important;
+    }
+
+    .termos-seletor{
+        margin: 0;
+        text-align: center !important;
+        font-size: 15px !important;
+        color: #686868 !important;
+        font-weight: bold !important;
+    }
+
+    .seletor-planos a{
+        margin: 0;
+        text-align: center !important;
+        font-size: 15px !important;
+        color: #686868 !important;
+        font-weight: bold !important;
+    }
+
+
+    /*fim Seletor dos planos Premium*/
+
+    /*começa Seção de perguntas frequentes*/
+
+    .area_de_duvidas{
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        padding: 100px 0 0 0;
+        color: white;
+        background-color: none;
+        padding-bottom: 140px;
+
+
+    }
+
+    .area_de_duvidas h3{   
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        font-display: bold;
+        padding-bottom: 40px;
+    }
+
+    .area_de_duvidas p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        padding-bottom: 10px;   
+    }
+
+
+
+    details summary {
+        list-style: none;
+        position: relative;
+        /*tira a seta e deixa a posição dela libre*/
+    }
+    
+    details summary::-webkit-details-marker {
+        display: none;
+        /*tira a seta do webkit*/
+    }
+    
+    details summary::before {
+        content: '▽';
+        /*troca a seta padrão por um triangulo*/
+        position: absolute;
+        right: 0px;
+        padding-left: 100%;
+    }
+    
+    details[open] summary::before {
+        content: '△';
+        padding-left: 100%;
+    }
+
+
+.area_de_duvidas p{
+    padding: 10px;
+}
+    
+
+    .area_de_duvidas li{
+        padding: 16px;
+        margin-top: 2px;
+        list-style: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        font-display: bolder;
+        padding-bottom: 10px; 
+        font-style: none;
+        padding: 20px 70px 20px 70px;
+        width: 1400px;
+        max-width: 80%;
+        border-bottom: 1px solid #292929;
+
+
+    }
+
+    .area_de_duvidas li:hover{
+        background-color: #252525;
+        transition: 0.5s;
+    }
+
+    /*fim da area de duvidas*/
+
+    /*inicio do rodapé*/
+    footer{
+        /* padding: 45px 10px; */
+        background-color: black;
+        display: grid;
+
+        grid-template-columns: 400px 170px 170px 170px 170px 170px 270px 400px;
+        grid-template-rows: 1fr 30px 1fr;
+        width: 100%;
+        height: 100vh;
+        padding-top: 100px;
+
+        /*grid-template-rows: 300px 300px 300px 300px 300px 300px;
+        grid-template-columns: 300px 300px 300px 300px 300px 300px;*/
+    }
+
+    .item1{
+        align-content: top;
+        justify-content: center;
+
+    }
+
+    footer img{
+        width: 120px;
+        margin: 0 20px 0 20px;
+    }
+
+    .item2{
+        align-content: top;
+        justify-content: left;
+
+
+    }
+
+    .item3{
+        align-content: top;
+        padding-left: 50px;
+    }
+
+    footer ul{
+        display: grid;
+        list-style: none;
+        padding: 0px 40px 40px 0px;
+        line-height: 25px;
+    }   
+
+    footer li{
+        margin-bottom: 15px;
+    }
+
+    footer a{
+        text-decoration: none;
+        color: white;
+    }
+
+    footer a:hover{
+        color: green;
+        transition: 0.3s;
+    }
+
+    footer .titulo-footer{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-weight: bolder;       
+        color: gray;
+
+    }
+
+    footer svg{
+        background-color: #222326;
+        border-radius: 35px;
+        padding: 10px 15px;
+        width: 25px;
+        margin: 5px;
+
+    } 
+
+    .item4{
+        margin-left: auto; 
+        
+    }
+
+    .item4 svg{
+        width: 15px;
+        height: 15px;
+        margin: 0px;
+        background-color: transparent;
+        padding: 0px;
+    }
+
+    .item4 a{
+        display: flex; 
+        align-items: center; 
+        justify-items: right;
+        color: #727272;
+    }
+
+
+    .item5 {
+
+        grid-column-start: 2;
+        grid-column-end: 8;
+    }
+    
+    .item5 ul {
+        color: #727272;
+        display: flex; /* Alinha os itens em linha */
+        flex-wrap: wrap; /* Permite que itens quebrem em múltiplas linhas, se necessário */
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .item5 li {
+        margin-right: 20px; /* Espaçamento entre os itens da lista */
+        display: flex; /* Garante que o conteúdo dentro de <li> também seja flexível */
+
+    }
+    
+    .item5 a {
+        color: #727272;
+        text-decoration: none;
+        display: flex; /* Garante que o conteúdo do link também seja flexível */
+
+    }
+
+    .item6 {
+        margin-left: auto; /* Empurra o item para a direita */
+        margin-right: 0px !important;
+    }
+
+
+
+    /* fim do footer */
+

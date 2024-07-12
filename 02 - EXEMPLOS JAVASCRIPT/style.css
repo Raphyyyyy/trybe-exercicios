@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Parte do Normalize.css */
+html {
+    font-size: 16px;
+    font-family: Inter;
+}
+
+
+
+
+main{
+    display: flex;
+    width: 511px;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: "Inter", sans-serif;
+    gap: 32px;
+    margin-left: 173px;
+    margin-top: 163px;
+    margin-right: 648px;
+    margin-bottom: 94px, auto;
+}
+
+div{
+    display: flex;
+}
+
+.div-logo {
+    display: flex;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 45px;
+    margin-top: 24px;
+
+}
+
+.logo {
+    width: auto;
+    max-width: 50px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    margin: 1%;
+
+}
+
+
+
+h3{
+color: rgb(0, 0, 0);
+font-family: "Baloo Thambi 2";
+font-size: 23px;
+font-weight: 700;
+line-height: 100%; /* 23px */
+}
+
+.envie1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.envie-seu-pedido{
+    color: var(--orange-8, #E8590C);
+    /* title/h1 */
+    font-family: Inter;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 44.2px */
+
+}
+
+.div-dados-usuario{
+    display: flex;
+    width: 511px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.div-logo-usuario {
+    display: flex;
+    width: 511px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+
+}
+
+.div-logo-usuario .id{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.div-dados-usuario svg{
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+}
+
+.div-dados-usuario h4{
+    color: var(--other-black, #000);
+    /* title/h4 */
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 145%; /* 26.1px */
+}
+
+.div-dados-usuario .nome{
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.div-dados-usuario input[type="text"],
+.div-dados-usuario input[type="email"]{
+    width: 100%;
+    height: 44px;
+    padding: 0 16px;
+    border: 1px solid var(--gray-3, #E5E5E5);
+    border-radius: 8px;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    color: var(--black, #000);
+
+}
+
+.div-dados-usuario label{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+  
+    color: var(--gray-9, #212529);
+
+    /* components/input/label/md */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+
+}
+
+.div-dados-usuario .nome1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+    flex: 1 0 0;
+}
+
+/* fim dados usuario */
+
+
+/* inicio tamanho lanche */
+
+.tamanho-geral{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    width: 511px;
+}
+
+/* titulo */
+
+.tamanho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+
+
+.tamanho h4{
+    color: var(--other-black, #000);
+    /* title/h4 */
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 145%; /* 26.1px */
+}
+
+
+.logo-tamanho{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 8px;
+}
+
+/* bloco dos tamanhos */
+
+.div-tamanhos2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+
+}
+
+.tamanhos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    width: 100%;
+}
+
+
+
+/* bloco de um tamanho */
+.div-tamanho{
+    display: flex;
+
+    height: 69.369px;
+    width: 100%;
+    padding: 8px 16px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 10px;
+    border: 1px solid var(--gray-4, #CED4DA);
+    width: 100%;
+}
+
+/* bloco da imagem */
+.opt-lanches{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+/* imagem */
+.titulo-tamanho{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+.opt-lanches img{
+    width: 68.865px;
+    height: 53.369px;
+    flex-shrink: 0;
+}
+
+/* texto lanche */
+
+.texto-tamanho{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.opt-lanches p{
+    color: var(--other-black, #000);
+    /* titulo */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 155%; /* 24.8px */
+}
+
+
+.opt-lanches .preco1{
+    color: var(--orange-8, #E8590C);
+    /* preço */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 155%; /* 21.7px */
+}
+/* botoes dos lanches */
+
+.botoes-tamanho{
+    display: flex;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.botoes-tamanho button{
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background-color: white;
+    border: 1px solid var(--gray-4, #CED4DA);
+}
+
+.botoes-tamanho button:hover{
+    background-color: var(--gray-4, #7a7a7a);
+}
+
+.botoes-tamanho p{
+    color: var(--other-black, #000);
+    text-align: center;
+    /* text/500/sm */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 195%; /* 21.7px */
+
+    width: 52px;
+    height: 32px;
+
+    border-radius: 8px;
+    border: 1px solid var(--gray-4, #CED4DA);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
